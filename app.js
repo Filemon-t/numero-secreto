@@ -5,7 +5,7 @@
 //paragrafo.innerHTML = c;
 
 let lista = []; // lista vazia
-let limite = 100;
+let limite = 10;
 let numSecreto = gerarNum();
 let tentativas = 1;
 console.log(numSecreto);
@@ -17,7 +17,7 @@ function exibirTexto(tag, texto){  // oq está em () é um parametro
 }
 function exibirReiniciar() {
     exibirTexto('h1','Jogo do número secreto'); // criando uma função para o código a cima
-    exibirTexto('p','Escolha um número entre 1 e 100'); // modo simplificado
+exibirTexto('p',`Escolha um número entre 1 e ${limite}`); // modo simplificado
 }
 
 exibirReiniciar();
