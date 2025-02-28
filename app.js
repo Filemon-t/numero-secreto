@@ -5,7 +5,7 @@
 //paragrafo.innerHTML = c;
 
 let lista = []; // lista vazia
-let limite = 10;
+let limite = 50;
 let numSecreto = gerarNum();
 let tentativas = 1;
 console.log(numSecreto);
